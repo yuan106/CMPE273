@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+
+[packages]
+requests = "2.24.0" 
+flask = "==1.1.1"
+qrcode = "*"
+pillow = "*"
+flask-api-stats = "*"
+sqlalchemy = "*"
+flask-monitoringdashboard = "*"
+schedule = "*"
+
+[requires]
+python_version = "3.8"
